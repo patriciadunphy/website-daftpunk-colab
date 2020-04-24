@@ -1,5 +1,8 @@
 body{
-
+  background-color: #040323;
+}
+header{
+  background-color: #040323;
 }
 h1{
 	font-family: DaftFont;
@@ -13,7 +16,7 @@ h1{
 }
 /*CSS for first image on page*/
 .heroImage{
-	height: 500px;
+    height: 500px;
   	background-image: url("../images/daft2.jpg");
   	background-repeat: no-repeat;
   	background-position: center;
@@ -29,11 +32,16 @@ h1{
 #glowing{
 	font-size: 80px;
   	color: #fff;
-  	/*#fc0398*/
   	text-align: center;
   	-webkit-animation: glow 1s ease-in-out infinite alternate;
   	-moz-animation: glow 1s ease-in-out infinite alternate;
   	animation: glow 1s ease-in-out infinite alternate;
+}
+a{
+  color: white;
+}
+a:hover{
+   color: white;
 }
 
 @-webkit-keyframes glow {
@@ -45,4 +53,19 @@ h1{
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   	}
 }
-/*END: CSS for first image on page*/ 
+/*END: CSS for first image on page*/
+/*Footer CSS*/
+.col-sm-1{
+  text-align: center;
+  position: relative;
+  color: white;
+}
+#footerFont svg{
+  color: #C864AD;
+  -moz-transition:color .2s ease-in;
+    -o-transition:color .2s ease-in;
+    -webkit-transition:color .2s ease-in;
+}
+#footerFont svg:hover{
+  color: white;
+}

@@ -1,0 +1,21 @@
+body{
+	background-color: #040323;
+}
+footer{
+  	background-color: #040323;
+}
+.col-sm-1{
+  text-align: center;
+  position: relative;
+  color: white;
+}
+#footerFont svg{
+	color: #C864AD;
+	-moz-transition:color .2s ease-in;
+    -o-transition:color .2s ease-in;
+    -webkit-transition:color .2s ease-in;
+}
+#footerFont svg:hover{
+	color: white;
+	
+}
