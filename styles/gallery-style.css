@@ -41,7 +41,7 @@ h1{
   position: relative;
   color: white;
   padding-bottom: 20px;
-  padding-top: 0px;
+  padding-top: 20px;
 }
 #footerFont svg{
   color: #ff4da6;
@@ -52,33 +52,10 @@ h1{
 #footerFont svg:hover{
   color: white;
 }
-/*Gallery*/
-.row{
-	margin: 0px;
-}
-.col-sm-6{
-	/*padding: 0px;*/
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 0px;
-	padding-top: 0px;
-}
-.col-sm-6 img{
-	/*padding: 20px;*/
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	padding-top: 0px;
-}
-.col-sm-3{
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 0px;
-	padding-top: 0px;
-}
+/*Gallery Carousel*/
 .containerPadding{
-	padding-left: 60px;
-  	padding-right: 60px;
+	padding-left: 35%;
+  	padding-right: 35%;
   	padding-top: 0px;
  	padding-bottom: 0px;
 }
