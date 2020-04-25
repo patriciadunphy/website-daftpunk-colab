@@ -1,34 +1,20 @@
 body{
   background-color: #040323;
-}
-header{
-  background-color: #040323;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 h1{
 	font-family: DaftFont;
 }
-
 @font-face{
 	font-family: DaftFont;
 	src: url(fonts/DaftFont.TTF);
 	font-weight: normal;
 	font-style: normal;
 }
-/*CSS for first image on page*/
-.heroImage{
-    height: 500px;
-  	background-image: url("../images/daft2.jpg");
-  	background-repeat: no-repeat;
-  	background-position: center;
-  	background-size: 100%;
-}
-.col-sm-12 h1{
-	text-align: center;
-	position: relative;
-}
-#titleText{
-	font-size: 80px;
-}
+/*Heading*/
 #glowing{
 	font-size: 80px;
   	color: #fff;
@@ -36,6 +22,7 @@ h1{
   	-webkit-animation: glow 1s ease-in-out infinite alternate;
   	-moz-animation: glow 1s ease-in-out infinite alternate;
   	animation: glow 1s ease-in-out infinite alternate;
+  	padding: 25px;
 }
 
 @-webkit-keyframes glow {
@@ -47,12 +34,14 @@ h1{
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   	}
 }
-/*END: CSS for first image on page*/
-/*Footer CSS*/
+
+/*Footer*/
 .col-sm-1{
   text-align: center;
   position: relative;
   color: white;
+  padding-bottom: 20px;
+  padding-top: 0px;
 }
 #footerFont svg{
   color: #ff4da6;
@@ -62,4 +51,34 @@ h1{
 }
 #footerFont svg:hover{
   color: white;
+}
+/*Gallery*/
+.row{
+	margin: 0px;
+}
+.col-sm-6{
+	/*padding: 0px;*/
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.col-sm-6 img{
+	/*padding: 20px;*/
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+}
+.col-sm-3{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.containerPadding{
+	padding-left: 60px;
+  	padding-right: 60px;
+  	padding-top: 0px;
+ 	padding-bottom: 0px;
 }
