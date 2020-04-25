@@ -40,9 +40,10 @@ h1{
   text-align: center;
   position: relative;
   color: white;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
+
 #footerFont svg{
   color: #ff4da6;
   -moz-transition:color .2s ease-in;
@@ -57,5 +58,11 @@ h1{
 	padding-left: 35%;
   	padding-right: 35%;
   	padding-top: 0px;
+ 	padding-bottom: 0px;
+}
+.containerMusicVideo{
+	padding-left: 20%;
+  	padding-right: 20%;
+  	padding-top: 15px;
  	padding-bottom: 0px;
 }
