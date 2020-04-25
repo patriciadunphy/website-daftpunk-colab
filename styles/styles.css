@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+h1{
+	font-family: DaftFont;
+}
+@font-face{
+	font-family: DaftFont;
+	src: url(fonts/DaftFont.TTF);
+	font-weight: normal;
+	font-style: normal;
+}
+.background{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/daft2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+.col-sm-12 h1{
+	text-align: center;
+	position: relative;
+}
+#titleText{
+	font-size: 80px;
+}
+#glowing{
+	font-size: 80px;
+  	color: #fff;
+  	/*#fc0398*/
+  	text-align: center;
+  	-webkit-animation: glow 1s ease-in-out infinite alternate;
+  	-moz-animation: glow 1s ease-in-out infinite alternate;
+  	animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  	from {
+   	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+ 	}
+  
+  	to{
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  	}
+}
+.nav{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+.nav a{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition: 300ms;
+}
+a.active, .nav a:hover{
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+.a{
+	width: 95%;
+}
+.b{
+	width: 85%;
+}
+.c{
+	width: 80%;
+}
+.d{
+	width: 90%;
+}

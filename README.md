@@ -1,2 +1,2 @@
-# website-daftpunk-colab
-School assignment HTML and CSS
+# website-colab-group-4
+Group assignment with HTML and CSS
