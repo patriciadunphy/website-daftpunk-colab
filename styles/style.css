@@ -28,7 +28,6 @@ h2{
   padding: 0px;
   margin:0px;
 }
-/*Navigation bar*/
 .nav{
   /*width: 200px;*/
   width: 20%;
@@ -36,7 +35,26 @@ h2{
   position: absolute;
   top: 10%;
   left: 0;
+
+
+
 }
+/*.nav a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: DaftFont;
+  font-weight: bold;
+  height: 60px;
+  margin: 5px 0;
+  float: left;
+  display: inline-block;
+  background-color: #040323
+  color: #ff4da6;
+  line-height: 60px;
+  text-align: center;
+  transition: 300ms;
+}*/
+
 .nav a{
   text-decoration: none;
   font-size: 20px;
@@ -51,6 +69,7 @@ h2{
   line-height: 60px;
   text-align: center;
   transition: 300ms;
+  position: relative;
 }
 a.active, .nav a:hover{
   background-color: #ff4da6;
