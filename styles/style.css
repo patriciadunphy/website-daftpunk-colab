@@ -1,11 +1,21 @@
 body{
   background-color: #040323;
+  padding: 0px;
+  margin: 0px;
 }
 header{
   background-color: #040323;
+  padding: 0px;
+  margin: 0px;
 }
 h1{
 	font-family: DaftFont;
+  font-size: 80px;
+}
+h2{
+  font-family: DaftFont;
+  font-size: 60px;
+  padding-bottom: 20px;
 }
 
 @font-face{
@@ -14,7 +24,59 @@ h1{
 	font-weight: normal;
 	font-style: normal;
 }
+.row{
+  padding: 0px;
+  margin:0px;
+}
+/*Navigation bar*/
+.nav{
+  /*width: 200px;*/
+  width: 20%;
+  height: auto;
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+.nav a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: DaftFont;
+  font-weight: bold;
+  height: 60px;
+  margin: 5px 0;
+  float: left;
+  display: inline-block;
+  background-color: #040323
+  color: #ff4da6;
+  line-height: 60px;
+  text-align: center;
+  transition: 300ms;
+}
+a.active, .nav a:hover{
+  background-color: #ff4da6;
+  color: #040323;
+  width: 100%;
+}
+.a{
+  width: 95%;
+}
+.b{
+  width: 85%;
+}
+.c{
+  width: 80%;
+}
+.d{
+  width: 90%;
+}
+
 /*CSS for first image on page*/
+#hero{
+  padding-top: 5%;
+  padding-bottom: 17%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .heroImage{
     height: 500px;
   	background-image: url("../images/daft2.jpg");
@@ -29,8 +91,7 @@ h1{
 #titleText{
 	font-size: 80px;
 }
-#glowing{
-	font-size: 80px;
+#glowing{	
   	color: #fff;
   	text-align: center;
   	-webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -48,11 +109,26 @@ h1{
   	}
 }
 /*END: CSS for first image on page*/
+/*Gallery Carousel*/
+.containerPadding{
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 0px;
+    padding-bottom: 17%;
+}
+.containerMusicVideo{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
 /*Footer CSS*/
 .col-sm-1{
   text-align: center;
   position: relative;
   color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 #footerFont svg{
   color: #ff4da6;
