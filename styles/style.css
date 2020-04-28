@@ -28,34 +28,15 @@ h2{
   padding: 0px;
   margin:0px;
 }
-.nav{
-  /*width: 200px;*/
+.navbar{
   width: 20%;
   height: auto;
   position: absolute;
   top: 10%;
   left: 0;
-
-
-
 }
-/*.nav a{
-  text-decoration: none;
-  font-size: 20px;
-  font-family: DaftFont;
-  font-weight: bold;
-  height: 60px;
-  margin: 5px 0;
-  float: left;
-  display: inline-block;
-  background-color: #040323
-  color: #ff4da6;
-  line-height: 60px;
-  text-align: center;
-  transition: 300ms;
-}*/
 
-.nav a{
+.navbar a{
   text-decoration: none;
   font-size: 20px;
   font-family: DaftFont;
@@ -71,13 +52,13 @@ h2{
   transition: 300ms;
   position: relative;
 }
-a.active, .nav a:hover{
+a.active, .navbar a:hover{
   background-color: #ff4da6;
   color: #040323;
   width: 100%;
 }
 .a{
-  width: 95%;
+  width: 80%;
 }
 .b{
   width: 80%;
@@ -88,6 +69,35 @@ a.active, .nav a:hover{
 .d{
   width: 80%;
 }
+
+.content{
+  position: relative;
+  width: 100%;
+  /*min-height: 250px;*/
+  height: auto;
+  /*background-color: red;*/
+  right: 0;
+  top: 10%;
+}
+.home{
+  position: relative;
+  right: 0px;
+  bottom: -25px;
+  color: white;
+  font-family: verdana;
+}
+.home h2{
+  font-size: 100px;
+  padding-right: 10px;
+  border-bottom: 1px solid white;
+}
+
+.home h3{
+  font-size: 30px;
+  padding-bottom: 40px;
+  opacity: 0.6;
+}
+
 
 /*CSS for first image on page*/
 #hero{
@@ -127,6 +137,23 @@ a.active, .nav a:hover{
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   	}
 }
+
+/*Biography*/
+.about{
+  position: relative;
+  right: 0;
+  top: 10px;
+  color: white;
+  font-family: century gothic;
+  padding: 100px;
+}
+.about p{
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 25px;
+}
+
+
 /*END: CSS for first image on page*/
 /*Gallery Carousel*/
 .containerPadding{
